@@ -45,7 +45,7 @@ a {
 .mainHeader {
     padding-top: 2rem;
     max-width: 100%;
-    position: absolute;
+    position: relative;
     display: block;
     left: 50%;
     transform: translateX(-50%);
@@ -54,20 +54,33 @@ a {
     letter-spacing: 0rem;
 }
 h1 {
-    display: block;
     text-align: center;
     font-family: 'DTM-Sans';
     color: white;
     padding-bottom: 3rem;
     letter-spacing: 1rem;
     font-size: 7rem;
+    text-shadow: 0 0 1.8rem rgba(255, 255, 255, 0.35);
+    transition: all .2s ease-in-out;
 }
+h1:hover {
+    transform: scale(1.1);
+    text-shadow: 0 0 2.4rem rgba(255, 255, 255, 0.5);
+}
+
 .gasm {
     color: #f7f052;
 }
 
-
-
+.p5Canvas {
+    border-radius: 15px 15px 15px 15px;
+    border: 8px solid rgba(128, 0, 128, 0.514);
+    box-shadow: 0 0 2rem 0.5rem #db0ef644;
+}
+.e:hover {
+    text-transform: uppercase;
+    color: rgb(255, 75, 75);
+}
 #snake-container {
     position: absolute;
     width: 400px;
@@ -78,21 +91,23 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
+.gashis {
+    position: absolute;
+}
 .gashi1 {
     height: 10rem;
     width: 10rem;
     max-width: 100%;
     position: absolute;
-    left: 23.4%;
+    left: 22.2%
 }
 .gashi2 {
     height: 10rem;
     width: 10rem;
     max-width: 100%;
     position: absolute;
-    left: 68%;
-    transform: scaleX(-1)
+    transform: scaleX(-1);
+    left: 69.8%;
 }
 
 
