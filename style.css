@@ -124,12 +124,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    justify-content: space-evenly;
 }
 
 li {
     display: inline-block;
     font-size: 3rem;
     text-transform: uppercase;
+       
 }
 
 li a {
@@ -138,8 +140,10 @@ li a {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    line-height: 0.8;
+    border-bottom: 2px solid transparent; 
 }
 
 li a:hover {
-    text-decoration: underline;
+    border-bottom-color: rgb(52, 106, 255);
 }
