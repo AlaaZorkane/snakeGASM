@@ -1,0 +1,82 @@
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+  }
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    color:#333;
+    user-select:none;
+}
+
+body {
+    margin:0;
+    padding:0;
+    background-color: #272727;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 2rem
+}
+
+a {
+    outline:0;
+    text-decoration:none
+}
+@font-face {
+    font-family: 'DTM-Sans';
+    src: url('assets/fonts/DTM-Sans.otf')
+}
+h1 {
+    position: block;
+    text-align: center;
+    font-family: 'DTM-Sans';
+    color: white;
+    padding-bottom: 3rem;
+    letter-spacing: 1rem;
+    font-size: 7rem;
+}
+.gasm {
+    color: #f7f052;
+}
+.appContainer {
+    position: relative;
+}
+
+
+#snake-container {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    align-self: center;
+}
+
+.gashi1 {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    left: 23%;
+}
+.gashi2 {
+    height: 10rem;
+    width: 10rem;
+    position: absolute;
+    left: 68%;
+    transform: scale(-1)
+}
+
+
