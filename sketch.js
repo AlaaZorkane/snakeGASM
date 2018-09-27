@@ -11,11 +11,11 @@ var onlinePlayers = [];
 
 function preload() {
     // -- Sounds
-    sound_collisionTarget = loadSound('../assets/sounds/targetCollision.mp3');
-    sound_Gameover = loadSound('../assets/sounds/fuckyeah.mp3');
+    sound_collisionTarget = loadSound('assets/sounds/targetCollision.mp3');
+    sound_Gameover = loadSound('assets/sounds/fuckyeah.mp3');
 
     // -- Images
-    gachiTarget = loadImage("../assets/images/gachigasm-transparent-3.png")
+    gachiTarget = loadImage("assets/images/gachigasm-transparent-3.png")
 
     //--
     players.unshift(new Snake(20, 20));
