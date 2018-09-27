@@ -1,13 +1,8 @@
 
 .noselect {
-    -webkit-touch-callout: none; /* iOS Safari */
-      -webkit-user-select: none; /* Safari */
-       -khtml-user-select: none; /* Konqueror HTML */
-         -moz-user-select: none; /* Firefox */
-          -ms-user-select: none; /* Internet Explorer/Edge */
-              user-select: none; /* Non-prefixed version, currently
-                                    supported by Chrome and Opera */
-  }
+    -moz-user-select: none; /* Firefox */
+    user-select: none; /* Non-prefixed version, currently */
+}
 
 *,
 *::after,
@@ -26,10 +21,17 @@ html {
 body {
     margin:0;
     padding:0;
-    background-color: #272727;
     box-sizing: border-box;
     overflow: hidden;
-    padding: 2rem
+    padding: 2rem;
+    background-color: rgb(25, 22, 42);
+}
+
+.appContainer {
+    height: 95vh;
+    background-image: url(assets/images/bg.jpg);
+    background-size: cover;
+    position: relative;
 }
 
 a {
@@ -40,8 +42,19 @@ a {
     font-family: 'DTM-Sans';
     src: url('assets/fonts/DTM-Sans.otf')
 }
+.mainHeader {
+    padding-top: 2rem;
+    max-width: 100%;
+    position: absolute;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.m {
+    letter-spacing: 0rem;
+}
 h1 {
-    position: block;
+    display: block;
     text-align: center;
     font-family: 'DTM-Sans';
     color: white;
@@ -52,31 +65,34 @@ h1 {
 .gasm {
     color: #f7f052;
 }
-.appContainer {
-    position: relative;
-}
+
 
 
 #snake-container {
+    position: absolute;
     width: 400px;
     height: 400px;
     max-width: 400px;
     max-height: 400px;
-    align-self: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .gashi1 {
     height: 10rem;
     width: 10rem;
+    max-width: 100%;
     position: absolute;
-    left: 23%;
+    left: 23.4%;
 }
 .gashi2 {
     height: 10rem;
     width: 10rem;
+    max-width: 100%;
     position: absolute;
     left: 68%;
-    transform: scale(-1)
+    transform: scaleX(-1)
 }
 
 
