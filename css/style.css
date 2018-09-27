@@ -30,7 +30,7 @@ body {
 
 .appContainer {
     height: 95vh;
-    background-image: url(assets/images/bg.jpg);
+    background-image: url(../assets/images/bg.jpg);
     background-size: cover;
     position: relative;
 }
@@ -41,7 +41,7 @@ a {
 }
 @font-face {
     font-family: 'DTM-Sans';
-    src: url('assets/fonts/DTM-Sans.otf')
+    src: url('../assets/fonts/DTM-Sans.otf')
 }
 .mainHeader {
     padding-top: 2rem;
