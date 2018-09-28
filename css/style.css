@@ -136,7 +136,7 @@ h1:hover {
 .footer {
     position: fixed;
     left: 0;
-    bottom: 6%;
+    bottom: 4%;
     width: 100%;
     color: white;
     text-align: center;
@@ -160,10 +160,10 @@ li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 16px;
+    padding: 1.6rem;
     text-decoration: none;
     line-height: 0.8;
-    border-bottom: 2px solid transparent;
+    border-bottom: 0.2rem solid transparent;
 }
 
 li a:hover {
