@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="shortcut icon" type="image/png" href="/assets/images/gashi1.png"/>
-  <title>SnakeGASM</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-  <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css" />
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet"> 
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
-  <script src="js/main.js"></script>
-  <!-- P5 -->
-  <script src="jsadd/p5.min.js"></script>
-  <script src="jsadd/p5.sound.min.js"></script>
-  <script src="js/sketch.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SnakeGASM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <script src="/js/main.js"></script>
+
+    <!-- P5 -->
+    <script src="jsadd/p5.min.js"></script>
+    <script src="jsadd/p5.sound.min.js"></script>
+    <script src="js/sketch.js"></script>
+
 </head>
 <body>
-    <audio id="e-sound" style="display:none;" controls="controls" preload="auto">
-				<source src="https://a.clyp.it/q2oaawbe.mp3"></source>
-		</audio>
-  <div class="appContainer">
-    <header class="mainHeader">
-      <img  class="gashi1" src="assets/images/gashi1.png" alt="gashi1">
-      <img  class="gashi2" src="assets/images/gashi1.png" alt="gashi2">
-      <h1 id="snakegasmTitle" class="noselect shadow-pop-tr">Snak<span class="e">e</span><span class='gasm'>GAS</span><span class='gasm m'>M</span></h1>
-    </header> 
-      <div id="snake-container"> <!-- 400px/400px -->
-        <!-- keep this empty the js will render this -->
-      </div>
-      <footer class="footer">
+    <div class="appContainer">
+        <header class="mainHeader"> 
+            <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+              <img id="g1" class="gashis gashi1" src="assets/images/gashi1.png" alt="gashi1">
+            </a>
+            <img  id="g2" class="gashis gashi2" src="assets/images/gashi1.png" alt="gashi2">
+            <h1 id="snakeheader" class="noselect t1"><a href="index.html">Snak<span class='e'>e</span><span class='gasm'>GAS<span class='gasm m'>M</span></span></a></h1>
+        </header>
+        <div id="snake-Container">
+
+        </div>
+        <div class="abtus" id="aboutus">
+          <p>
+            Made by <span style="color: rgb(124, 192, 255)">Ark</span> & <span style="color: rgb(102, 252, 122)">Ginkoe</span> for the pair programming thingie.
+            Thanks to everyone for tuning in, we really appreciate the support :)
+            <span style="font-size: 50%; color: gray">Easteregg: Click on the left Gashi</span>
+          </p>
+        </div>
+    </div>
+    <footer class="footer">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="https://github.com/AlaaZorkane/snakeGASM/">Github</a></li>
+            <li><a id="about" href="#">About</a></li>
+            <li><a href="https://github.com/AlaaZorkane/snakeGASM" target="_blank">Github</a></li>
         </ul>
-      </footer>
-  </div>
+        <h4>Copyright © 2018</h4>
+        <h4>Tribute to <span style="color:gold">Kinani</span></h4>
+    </footer>
 </body>
 </html>

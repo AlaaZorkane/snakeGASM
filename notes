@@ -1,0 +1,32 @@
+- Pair Programming -
+
+===============
+Session #1
+
+CHALLENGE >> "snake game that plays gachi gasm evrytime you lose , 
+            loudness dial gachi gasm ttazad kolma kan score dialk kter"
+            
+ABDELMOUGHIT KINANI
+
+UNDER ONE HOUR
+===============
+
+Back-end:
+    Techs :
+        - P5
+        // -- FOR THE MULTIPLAYER ( EXTRA TIIIIIIIIIIIMMMEEEE )
+        - NodeJS
+        - Express
+        - PUG
+        - Socket.IO
+
+
+
+Front-end:
+    Techs : 
+        - CSS3
+        - HTML5
+        - SASS
+        - CSS FLEX BOX // CSS GRID
+        - JQUERY-UI        
+
